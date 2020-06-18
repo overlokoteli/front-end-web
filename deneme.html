@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Menü</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			body{
+				background-color: white;
+			}
+			nav{
+				background-color: gray;
+				color: white;
+				padding-top: 30px;
+				padding-bottom: 40px;
+				padding-left: 20px;
+				position: fixed;
+				width: 100%;
+			}
+			div .logo{
+				color: white;
+				font-weight: 700;
+				font-size: 40px;
+			}
+			a{
+				text-decoration: none;
+				color: white;
+				font-size: 28px;
+				font-weight: 800;
+				transition: color .3s;
+			}
+			a:hover{
+				color: red;
+			}
+			.container{
+				width: 1140px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			#logo-box{
+				float: left;
+				position: absolute;
+				top: 10px;
+				left:15px;
+			}
+			#nav-links{
+				float: right;
+				position: absolute;
+				right: 20px;
+				top: 10px;
+			}
+			#nav-links li{
+				display: inline-block;
+				margin: 4px;
+			}
+			header{
+				background-color: yellow;
+				height: 700px;
+				padding-top: 72px;
+				text-align: center;
+			}
+			footer{
+				background-color: black;
+				color: white;
+				height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<div class="container">
+				<div id="logo-box">
+					<a href="#" class="logo">STOK TAKİP</a>
+				</div>
+				<div id="nav-links">
+					<ul>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Anasayfa</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">İletişim</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Hakkımızda</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<header>
+			<div class="container">
+				<img src="resim.jpg" alt="">
+				<h1>Stok Takip</h1>
+			</div>
+		</header>
+		<footer>
+			Bu kısım footer kısmı
+		</footer>
+	</body>
+</html>
